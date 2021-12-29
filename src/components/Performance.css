@@ -1,0 +1,94 @@
+.performance {
+  position: absolute;
+  width: 157px;
+  height: 36px;
+  left: 276px;
+  top: 104px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.full-rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 1110px;
+  height: 94.34px;
+  left: 276px;
+  top: 152px;
+
+  object-fit: contain;
+  background-color: rgb(185, 168, 168);
+}
+
+.message {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.rectangle1 > p {
+  font-size: 0.5rem;
+}
+.rectangle1 {
+  position: absolute;
+  width: 157px;
+  height: 50px;
+  left: 20px;
+  top: 22px;
+  background-color: rgb(185, 168, 168);
+}
+.rectangle2 {
+  position: static;
+  width: 254px;
+  height: 70px;
+  left: 856px;
+  top: 12.17px;
+  display: flex;
+  flex-direction: row;
+  /* Inside Auto Layout */
+
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-left: 115vh;
+  background-color: grey;
+}
+.image1 {
+  position: absolute;
+  width: 193.11px;
+  height: 94.34px;
+  left: 670px;
+  top: 0px;
+
+  opacity: 0.8;
+  margin-top: 28px;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.icon {
+  margin-top: 17px;
+  margin-left: 79px;
+}
+.download > h6 {
+  font-weight: bold;
+  color: white;
+}
+.download > p {
+  color: blue;
+}

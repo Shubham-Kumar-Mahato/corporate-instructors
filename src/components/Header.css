@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 32px;
+
+  position: absolute;
+  width: 1286px;
+  height: 80px;
+  /* left: calc(50% - 1206px / 2 + 117px); */
+  top: 0px;
+  left: 234px;
+  background-color: rgb(185, 168, 168);
+}
+.search {
+  margin-right: 75vh;
+  margin-top: 8px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 10px 10px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info > p {
+  font-size: small;
+}
+.icon {
+  margin-top: 13px;
+}
+.profile-name {
+  display: flex;
+  flex-direction: row;
+}
